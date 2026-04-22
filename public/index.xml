@@ -6,41 +6,41 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Blog</title>
+    <link>https://notes.ashwinlabs.com/Blog/</link>
+    <guid>https://notes.ashwinlabs.com/Blog/</guid>
+    <description><![CDATA[ Blog Longer-form essays, reflections, and explanations. This is the slower, more narrative side of the site. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 00:38:43 GMT</pubDate>
+  </item><item>
+    <title>Cheatsheets</title>
+    <link>https://notes.ashwinlabs.com/Cheatsheets/</link>
+    <guid>https://notes.ashwinlabs.com/Cheatsheets/</guid>
+    <description><![CDATA[ Cheatsheets Compact notes designed for quick recall. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 00:38:43 GMT</pubDate>
+  </item><item>
+    <title>ML Notes</title>
+    <link>https://notes.ashwinlabs.com/ML-Notes/</link>
+    <guid>https://notes.ashwinlabs.com/ML-Notes/</guid>
+    <description><![CDATA[ ML Notes Notes on machine learning, deep learning, and AI systems. This section is where I try to turn confusion into clarity — one concept at a time. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 00:38:43 GMT</pubDate>
+  </item><item>
+    <title>Projects</title>
+    <link>https://notes.ashwinlabs.com/Projects/</link>
+    <guid>https://notes.ashwinlabs.com/Projects/</guid>
+    <description><![CDATA[ Projects Build logs, experiments, and technical writeups. This is where ideas get tested against reality. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 00:38:43 GMT</pubDate>
+  </item><item>
+    <title>Ashwin&#039;s Digital Garden</title>
+    <link>https://notes.ashwinlabs.com/</link>
+    <guid>https://notes.ashwinlabs.com/</guid>
+    <description><![CDATA[ Ashwin’s Digital Garden I use this space to think in public. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 00:38:43 GMT</pubDate>
+  </item><item>
     <title>About</title>
     <link>https://notes.ashwinlabs.com/About/</link>
     <guid>https://notes.ashwinlabs.com/About/</guid>
     <description><![CDATA[ About I’m Ashwin. ]]></description>
     <pubDate>Wed, 22 Apr 2026 00:23:24 GMT</pubDate>
-  </item><item>
-    <title>Blog</title>
-    <link>https://notes.ashwinlabs.com/Blog/</link>
-    <guid>https://notes.ashwinlabs.com/Blog/</guid>
-    <description><![CDATA[ Blog Long-form writing, essays, and reflections. ]]></description>
-    <pubDate>Tue, 21 Apr 2026 23:53:27 GMT</pubDate>
-  </item><item>
-    <title>Cheatsheets</title>
-    <link>https://notes.ashwinlabs.com/Cheatsheets/</link>
-    <guid>https://notes.ashwinlabs.com/Cheatsheets/</guid>
-    <description><![CDATA[ Cheatsheets Compact reference notes for fast review. ]]></description>
-    <pubDate>Tue, 21 Apr 2026 23:53:27 GMT</pubDate>
-  </item><item>
-    <title>ML Notes</title>
-    <link>https://notes.ashwinlabs.com/ML-Notes/</link>
-    <guid>https://notes.ashwinlabs.com/ML-Notes/</guid>
-    <description><![CDATA[ ML Notes Concept notes, deep-dives, and learning logs. ]]></description>
-    <pubDate>Tue, 21 Apr 2026 23:53:27 GMT</pubDate>
-  </item><item>
-    <title>Projects</title>
-    <link>https://notes.ashwinlabs.com/Projects/</link>
-    <guid>https://notes.ashwinlabs.com/Projects/</guid>
-    <description><![CDATA[ Projects Build logs, experiments, and project writeups. ]]></description>
-    <pubDate>Tue, 21 Apr 2026 23:53:27 GMT</pubDate>
-  </item><item>
-    <title>Ash&#039;s Digital Garden</title>
-    <link>https://notes.ashwinlabs.com/</link>
-    <guid>https://notes.ashwinlabs.com/</guid>
-    <description><![CDATA[ Ash’s Digital Garden Welcome. ]]></description>
-    <pubDate>Tue, 21 Apr 2026 23:53:27 GMT</pubDate>
   </item>
     </channel>
   </rss>
