@@ -10,13 +10,13 @@
     <link>https://notes.ashwinlabs.com/Projects/cifar10-build-vs-buy</link>
     <guid>https://notes.ashwinlabs.com/Projects/cifar10-build-vs-buy</guid>
     <description><![CDATA[ Overview I built an image classification model on CIFAR-10 and used it to evaluate a common product decision: Should we build our own model or use a third-party solution? A vendor (Detectocorp) claimed 70% accuracy on CIFAR-10. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 05:12:31 GMT</pubDate>
+    <pubDate>Wed, 22 Apr 2026 05:13:32 GMT</pubDate>
   </item><item>
     <title>Ashwin&#039;s Digital Garden</title>
     <link>https://notes.ashwinlabs.com/</link>
     <guid>https://notes.ashwinlabs.com/</guid>
-    <description><![CDATA[ I use this space to think in public. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 05:01:22 GMT</pubDate>
+    <description><![CDATA[ I build and document systems in machine learning, AI, and product engineering. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 05:13:32 GMT</pubDate>
   </item><item>
     <title>About</title>
     <link>https://notes.ashwinlabs.com/About/</link>
