@@ -26,6 +26,11 @@ It is a working knowledge system:
 
 If something feels unfinished, that usually means I’m still learning through it.
 
+## Featured
+- [[What 10-fold Stratified Cross-Validation Really Does]]
+- [[Batch Normalization Explained Simply]]
+- [[CIFAR-10 CNN Project Summary]]
+
 ## Start here
 
 - [[Cheatsheets]]
