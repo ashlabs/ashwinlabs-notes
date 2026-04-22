@@ -1,22 +1,35 @@
 ---
-title: Ash's Digital Garden
+title: Ashwin's Digital Garden
 ---
-# Ash's Digital Garden
 
-Welcome.
+# Ashwin's Digital Garden
 
-This site is where I publish:
-- Machine learning notes
-- AI and product writeups
-- Cheatsheets
-- Project logs
-- Selected essays
+I use this space to think in public.
 
-## Explore
-- [[Blog]]
-- [[ML Notes]]
+This is where I document what I’m learning, building, and figuring out — mainly in machine learning, AI systems, product thinking, and technical projects.
+
+Most of what you’ll find here started as rough notes. The useful ones get refined into cheatsheets, deeper explanations, and project writeups.
+
+## What you’ll find here
+
+- [[ML Notes]] — concept notes, intuition-first explanations, and deeper breakdowns
+- [[Cheatsheets]] — compact references for fast review
+- [[Projects]] — builds, experiments, and lessons learned
+- [[Blog]] — longer-form essays and reflections
+
+## How to read this site
+
+This is not a polished blog in the traditional sense.
+
+It is a working knowledge system:
+- ideas evolve
+- notes get rewritten
+- links between topics grow over time
+
+If something feels unfinished, that usually means I’m still learning through it.
+
+## Start here
+
 - [[Cheatsheets]]
 - [[Projects]]
 - [[About]]
-
-Quartz is working.

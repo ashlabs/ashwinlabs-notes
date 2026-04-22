@@ -4,4 +4,6 @@ title: ML Notes
 
 # ML Notes
 
-Concept notes, deep-dives, and learning logs.
+Notes on machine learning, deep learning, and AI systems.
+
+This section is where I try to turn confusion into clarity — one concept at a time.

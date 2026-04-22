@@ -4,4 +4,6 @@ title: Blog
 
 # Blog
 
-Long-form writing, essays, and reflections.
+Longer-form essays, reflections, and explanations.
+
+This is the slower, more narrative side of the site.
