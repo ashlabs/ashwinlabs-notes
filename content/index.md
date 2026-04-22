@@ -29,7 +29,7 @@ If something feels unfinished, that usually means I’m still learning through i
 ## Featured
 - [[What 10-fold Stratified Cross-Validation Really Does]]
 - [[Batch Normalization Explained Simply]]
-- [[CIFAR-10 CNN Project Summary]]
+- [[Projects/cifar10-build-vs-buy|CIFAR-10 Image Classification — Build vs Buy]]
 
 ## Start here
 
