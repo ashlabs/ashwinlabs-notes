@@ -1,0 +1,7 @@
+{
+    "name":"ashwinlabs-notes",
+    "compatibility_date":"2026-04-21",
+    "assets":{
+        "directory":"./public"
+    }
+}
