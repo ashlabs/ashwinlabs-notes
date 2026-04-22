@@ -1,3 +1,144 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+/* ===== Overall rhythm ===== */
+:root {
+  --page-width: 760px;
+  --radius: 14px;
+}
+
+/* Main content width and breathing room */
+.page > #quartz-body .center,
+.center {
+  max-width: var(--page-width);
+}
+
+article.popover-hint,
+article {
+  line-height: 1.75;
+  font-size: 1.02rem;
+}
+
+/* Cleaner headings */
+h1, h2, h3, h4 {
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.45rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Better paragraph spacing */
+p, ul, ol {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Cleaner links */
+a.internal,
+a.external {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, opacity 0.15s ease;
+}
+
+a.internal:hover,
+a.external:hover {
+  border-bottom-color: currentColor;
+  opacity: 0.85;
+}
+
+/* Make sidebars quieter */
+.left.sidebar,
+.right.sidebar {
+  font-size: 0.95rem;
+}
+
+.left.sidebar .section,
+.right.sidebar .section {
+  opacity: 0.92;
+}
+
+/* Explorer polish */
+.explorer,
+.toc,
+.backlinks {
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+  padding: 0.8rem 0.9rem;
+  background: var(--light);
+}
+
+/* Better card feel in dark mode too */
+[saved-theme="dark"] .explorer,
+[saved-theme="dark"] .toc,
+[saved-theme="dark"] .backlinks {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Code blocks feel more intentional */
+pre {
+  border-radius: 14px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+/* Inline code */
+code:not(pre code) {
+  padding: 0.15rem 0.35rem;
+  border-radius: 8px;
+  font-size: 0.92em;
+}
+
+/* Tables less harsh */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+th, td {
+  padding: 0.75rem 0.9rem;
+}
+
+/* Images */
+img {
+  border-radius: 14px;
+}
+
+/* Homepage polish */
+article h1 + p {
+  font-size: 1.08rem;
+  opacity: 0.9;
+}
+
+/* Hide noisy metadata if still showing */
+.content-meta,
+.page-meta,
+.created-date,
+.last-modified,
+.date {
+  display: none !important;
+}
+
+footer p{
+    display: none
+}

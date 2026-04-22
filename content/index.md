@@ -2,8 +2,6 @@
 title: Ashwin's Digital Garden
 ---
 
-# Ashwin's Digital Garden
-
 I use this space to think in public.
 
 This is where I document what I’m learning, building, and figuring out — mainly in machine learning, AI systems, product thinking, and technical projects.
