@@ -6,16 +6,22 @@
       <description>Last 10 notes on Ashwin Labs Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>CIFAR-10 Image Classification — Build vs Buy</title>
-    <link>https://notes.ashwinlabs.com/Projects/cifar10-build-vs-buy</link>
-    <guid>https://notes.ashwinlabs.com/Projects/cifar10-build-vs-buy</guid>
-    <description><![CDATA[ Overview I built an image classification model on CIFAR-10 and used it to evaluate a common product decision: Should we build our own model or use a third-party solution? A vendor (Detectocorp) claimed 70% accuracy on CIFAR-10. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 05:13:32 GMT</pubDate>
+    <title>What Machine Learning Actually Is (A Practitioner’s View)</title>
+    <link>https://notes.ashwinlabs.com/Blog/what-machine-learning-actually-is</link>
+    <guid>https://notes.ashwinlabs.com/Blog/what-machine-learning-actually-is</guid>
+    <description><![CDATA[ The Moment It Actually Clicks Most explanations of machine learning are technically correct—and practically useless. ]]></description>
+    <pubDate>Fri, 24 Apr 2026 03:44:51 GMT</pubDate>
   </item><item>
     <title>Ashwin&#039;s Digital Garden</title>
     <link>https://notes.ashwinlabs.com/</link>
     <guid>https://notes.ashwinlabs.com/</guid>
     <description><![CDATA[ I build and document systems in machine learning, AI, and product engineering. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 05:27:27 GMT</pubDate>
+  </item><item>
+    <title>CIFAR-10 Image Classification — Build vs Buy</title>
+    <link>https://notes.ashwinlabs.com/Projects/cifar10-build-vs-buy</link>
+    <guid>https://notes.ashwinlabs.com/Projects/cifar10-build-vs-buy</guid>
+    <description><![CDATA[ Result I built a CNN model that achieved 76.14% accuracy, outperforming a third-party solution (70%). ]]></description>
     <pubDate>Wed, 22 Apr 2026 05:13:32 GMT</pubDate>
   </item><item>
     <title>About</title>

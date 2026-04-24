@@ -2,6 +2,12 @@
 title: CIFAR-10 Image Classification — Build vs Buy
 ---
 
+## Result
+
+I built a CNN model that achieved **76.14% accuracy**, outperforming a third-party solution (70%).
+
+This led to a clear build vs buy decision: build in-house.
+
 ## Overview
 
 I built an image classification model on CIFAR-10 and used it to evaluate a common product decision:
@@ -193,3 +199,10 @@ For a system like self-driving, where performance and adaptability are critical:
 ## One-line Summary
 
 > I built a CNN model that outperformed a third-party solution and improved it through controlled experimentation, leading to a clear build-vs-buy recommendation.
+
+---
+
+## Related
+
+- [[Bias vs Variance]]
+- [[Data Augmentation]]
