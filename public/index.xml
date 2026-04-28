@@ -6,11 +6,17 @@
       <description>Last 10 notes on Ashwin Labs Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Gate checks in Prompt Chaining</title>
+    <link>https://notes.ashwinlabs.com/Blog/gate-checks-in-prompt-chaining</link>
+    <guid>https://notes.ashwinlabs.com/Blog/gate-checks-in-prompt-chaining</guid>
+    <description><![CDATA[ Why your LLM workflow works in demos…and fails in real systems The Moment You Realize Prompt Chaining Isn’t Enough Early on prompt chaining feels clean. ]]></description>
+    <pubDate>Tue, 28 Apr 2026 19:01:31 GMT</pubDate>
+  </item><item>
     <title>Hard-Codes Workflows vs AI Agents (ReAct) - The Difference That Actually Matters</title>
     <link>https://notes.ashwinlabs.com/Blog/hard-coded-workflows-vs-agents</link>
     <guid>https://notes.ashwinlabs.com/Blog/hard-coded-workflows-vs-agents</guid>
     <description><![CDATA[ When people first encounter AI agents, the reaction is usually: “Wait…isn’t this just calling APIs with an LLM in between?” Not quite. ]]></description>
-    <pubDate>Tue, 28 Apr 2026 17:50:04 GMT</pubDate>
+    <pubDate>Tue, 28 Apr 2026 17:52:45 GMT</pubDate>
   </item><item>
     <title>From Prompts to Agents -  Designing Decision Loops</title>
     <link>https://notes.ashwinlabs.com/Blog/from-prompts-to-agents</link>
@@ -59,12 +65,6 @@
     <guid>https://notes.ashwinlabs.com/</guid>
     <description><![CDATA[ I build and document systems in machine learning, AI, and product engineering. ]]></description>
     <pubDate>Wed, 22 Apr 2026 05:27:27 GMT</pubDate>
-  </item><item>
-    <title>About</title>
-    <link>https://notes.ashwinlabs.com/About/</link>
-    <guid>https://notes.ashwinlabs.com/About/</guid>
-    <description><![CDATA[ I’m Ashwin. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 04:02:24 GMT</pubDate>
   </item>
     </channel>
   </rss>
