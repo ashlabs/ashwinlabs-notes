@@ -6,23 +6,53 @@
       <description>Last 10 notes on Ashwin Labs Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Why Prompts Fail (And How to Debug Them)</title>
+    <link>https://notes.ashwinlabs.com/Blog/why-prompts-fail</link>
+    <guid>https://notes.ashwinlabs.com/Blog/why-prompts-fail</guid>
+    <description><![CDATA[ Most people think prompt engineering is about writing better prompts. It’s not. It’s about debugging failure. ]]></description>
+    <pubDate>Tue, 28 Apr 2026 04:30:45 GMT</pubDate>
+  </item><item>
+    <title>Inside the ReAct Pattern (Think → Act → Observe)</title>
+    <link>https://notes.ashwinlabs.com/Blog/inside-the-react-pattern</link>
+    <guid>https://notes.ashwinlabs.com/Blog/inside-the-react-pattern</guid>
+    <description><![CDATA[ At some point, prompting stops being about writing better instructions. ]]></description>
+    <pubDate>Tue, 28 Apr 2026 04:30:33 GMT</pubDate>
+  </item><item>
+    <title>From Prompts to Agents -  Designing Decision Loops</title>
+    <link>https://notes.ashwinlabs.com/Blog/from-prompts-to-agents</link>
+    <guid>https://notes.ashwinlabs.com/Blog/from-prompts-to-agents</guid>
+    <description><![CDATA[ At this point, you’ve seen the progression: Prompts → getting better outputs Debugging → fixing failures ReAct → enabling actions Tool calling → separating decision and execution Now comes the real shift. ]]></description>
+    <pubDate>Tue, 28 Apr 2026 04:30:21 GMT</pubDate>
+  </item><item>
+    <title>How Tool Calling Actually Works (Under the Hood)</title>
+    <link>https://notes.ashwinlabs.com/Blog/how-tool-calling-actually-works</link>
+    <guid>https://notes.ashwinlabs.com/Blog/how-tool-calling-actually-works</guid>
+    <description><![CDATA[ By now, you’ve seen the ReAct pattern: Think → Act → Observe It looks like the model is calling tools. ]]></description>
+    <pubDate>Tue, 28 Apr 2026 04:26:16 GMT</pubDate>
+  </item><item>
+    <title>Prompt Engineering Is Not About Prompts</title>
+    <link>https://notes.ashwinlabs.com/Blog/prompt-engineering</link>
+    <guid>https://notes.ashwinlabs.com/Blog/prompt-engineering</guid>
+    <description><![CDATA[ When people first hear the term prompt engineering, they usually assume it’s about asking better questions. ]]></description>
+    <pubDate>Tue, 28 Apr 2026 04:24:14 GMT</pubDate>
+  </item><item>
     <title>What Machine Learning Actually Is (A Practitioner’s View)</title>
     <link>https://notes.ashwinlabs.com/Blog/what-machine-learning-actually-is</link>
     <guid>https://notes.ashwinlabs.com/Blog/what-machine-learning-actually-is</guid>
     <description><![CDATA[ The Moment It Actually Clicks Most explanations of machine learning are technically correct—and practically useless. ]]></description>
-    <pubDate>Fri, 24 Apr 2026 03:44:51 GMT</pubDate>
+    <pubDate>Fri, 24 Apr 2026 03:45:36 GMT</pubDate>
+  </item><item>
+    <title>CIFAR-10 Image Classification — Build vs Buy</title>
+    <link>https://notes.ashwinlabs.com/Projects/cifar10-build-vs-buy</link>
+    <guid>https://notes.ashwinlabs.com/Projects/cifar10-build-vs-buy</guid>
+    <description><![CDATA[ Result I built a CNN model that achieved 76.14% accuracy, outperforming a third-party solution (70%). ]]></description>
+    <pubDate>Fri, 24 Apr 2026 03:45:36 GMT</pubDate>
   </item><item>
     <title>Ashwin&#039;s Digital Garden</title>
     <link>https://notes.ashwinlabs.com/</link>
     <guid>https://notes.ashwinlabs.com/</guid>
     <description><![CDATA[ I build and document systems in machine learning, AI, and product engineering. ]]></description>
     <pubDate>Wed, 22 Apr 2026 05:27:27 GMT</pubDate>
-  </item><item>
-    <title>CIFAR-10 Image Classification — Build vs Buy</title>
-    <link>https://notes.ashwinlabs.com/Projects/cifar10-build-vs-buy</link>
-    <guid>https://notes.ashwinlabs.com/Projects/cifar10-build-vs-buy</guid>
-    <description><![CDATA[ Result I built a CNN model that achieved 76.14% accuracy, outperforming a third-party solution (70%). ]]></description>
-    <pubDate>Wed, 22 Apr 2026 05:13:32 GMT</pubDate>
   </item><item>
     <title>About</title>
     <link>https://notes.ashwinlabs.com/About/</link>
@@ -34,24 +64,6 @@
     <link>https://notes.ashwinlabs.com/Blog/</link>
     <guid>https://notes.ashwinlabs.com/Blog/</guid>
     <description><![CDATA[ Longer-form essays, reflections, and explanations. This is the slower, more narrative side of the site. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 04:02:24 GMT</pubDate>
-  </item><item>
-    <title>Cheatsheets</title>
-    <link>https://notes.ashwinlabs.com/Cheatsheets/</link>
-    <guid>https://notes.ashwinlabs.com/Cheatsheets/</guid>
-    <description><![CDATA[ Compact notes designed for quick recall. These are the pieces I want to be able to revisit quickly before interviews, projects, or study sessions. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 04:02:24 GMT</pubDate>
-  </item><item>
-    <title>ML Notes</title>
-    <link>https://notes.ashwinlabs.com/ML-Notes/</link>
-    <guid>https://notes.ashwinlabs.com/ML-Notes/</guid>
-    <description><![CDATA[ Notes on machine learning, deep learning, and AI systems. This section is where I try to turn confusion into clarity — one concept at a time. ]]></description>
-    <pubDate>Wed, 22 Apr 2026 04:02:24 GMT</pubDate>
-  </item><item>
-    <title>Projects</title>
-    <link>https://notes.ashwinlabs.com/Projects/</link>
-    <guid>https://notes.ashwinlabs.com/Projects/</guid>
-    <description><![CDATA[ Build logs, experiments, and technical writeups. This is where ideas get tested against reality. ]]></description>
     <pubDate>Wed, 22 Apr 2026 04:02:24 GMT</pubDate>
   </item>
     </channel>
