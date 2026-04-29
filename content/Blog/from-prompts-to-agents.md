@@ -1,5 +1,9 @@
 ---
 title: From Prompts to Agents -  Designing Decision Loops
+tags:
+  - ai-systems
+  - agents
+  - prompting
 ---
 
 At this point, you’ve seen the progression:
@@ -23,6 +27,12 @@ Most people stay here:
 > Input → Model → Output
 
 That’s a single-step interaction.
+
+```mermaid
+flowchart LR
+    A[Input] --> B[Model]
+    B --> C[Output]
+```
 
 But real-world problems don’t look like that.
 
@@ -61,6 +71,14 @@ Every agent follows this pattern:
 5. Repeat
 
 This is just ReAct extended into a full system.
+
+```mermaid
+flowchart TD
+    A[Observe] --> B[Think]
+    B --> C[Act]
+    C --> D[Evaluate]
+    D --> A
+```
 
 ---
 
@@ -109,6 +127,14 @@ Let’s say you want to build:
 ---
 
 This is not a prompt.
+
+```mermaid
+flowchart TD
+    A[Goal] --> B[Search Data]
+    B --> C[Filter Options]
+    C --> D[Compare Tradeoffs]
+    D --> E[Recommend]
+```
 
 This is a **multi-step decision system**.
 
@@ -232,6 +258,18 @@ Let’s connect everything:
 
 This is the stack.
 
+```mermaid
+flowchart TD
+    A[User Request] --> B[Agent Loop]
+    B --> C[Tools]
+    B --> D[Memory]
+    B --> E[Evaluation]
+    C --> B
+    D --> B
+    E --> B
+    B --> F[Final Answer]
+```
+
 ---
 
 ## Why This Matters for You
@@ -262,3 +300,8 @@ If you remember one thing, make it this:
 
 Your job is to design everything around it.
 
+---
+
+## Next
+
+--> [[deconstructing-ai-agent|Deconstructing the AI Agent]]

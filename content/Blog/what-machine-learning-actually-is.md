@@ -1,5 +1,9 @@
 ---
 title: What Machine Learning Actually Is (A Practitioner’s View)
+tags:
+  - ai-systems
+  - agents
+  - prompting
 ---
 
 ## The Moment It Actually Clicks

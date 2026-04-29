@@ -1,5 +1,9 @@
 ---
 title: Inside the ReAct Pattern (Think → Act → Observe)
+tags:
+  - ai-systems
+  - agents
+  - prompting
 ---
 
 At some point, prompting stops being about writing better instructions.
@@ -22,6 +26,14 @@ ReAct stands for:
 
 And then repeat.
 
+```mermaid
+flowchart TD
+    A[Think] --> B[Act]
+    B --> C[Observe]
+    C --> A
+    A --> D[Final Answer]
+```
+
 It turns a language model into something that behaves more like an **agent**.
 
 ---
@@ -39,6 +51,16 @@ With ReAct, it can:
 - Iterate on results
 
 It moves from **static answering → dynamic problem solving**
+
+```mermaid
+flowchart TD
+    A[User Question] --> B[LLM Reasoning]
+    B --> C[Action: Call Tool]
+    C --> D[External Tool]
+    D --> E[Observation]
+    E --> B
+    B --> F[Answer]
+```
 
 ---
 
@@ -138,6 +160,13 @@ If you put observations there, you risk:
 - Confusing control flow
 
 So we keep:
+
+```mermaid
+flowchart LR
+    A[System Role] -->|Rules| D[LLM]
+    B[User Role] -->|New Info / Observation| D
+    C[Assistant Role] -->|Decisions / Actions| D
+```
 - System → rules  
 - Assistant → decisions  
 - User → new information  
@@ -213,3 +242,9 @@ You’re asking:
 > “What should the model *do next*?”
 
 That’s a higher-level skill.
+
+---
+
+## Next
+
+--> [[how-tool-calling-actually-works| How Tool Calling Actually Works]]

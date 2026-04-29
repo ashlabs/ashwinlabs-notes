@@ -1,5 +1,9 @@
 ---
 title: Gate checks in Prompt Chaining
+tags:
+  - ai-systems
+  - agents
+  - prompting
 ---
 *Why your LLM workflow works in demos...and fails in real systems*
 
@@ -38,9 +42,27 @@ It's a guardrail between individual steps.
 
 Instead of blindly chaining prompts:
 
+```mermaid
+flowchart LR
+    A[User] --> B[LLM]
+    B --> C[Tool]
+    C --> D[LLM]
+    D --> E[Answer]
+```
+
 > User --> LLM --> Tool --> LLM --> Answer
 
 You introduce validation checkpoints:
+
+```mermaid
+flowchart LR
+    A[User] --> B[LLM Gate]
+    B --> C{Valid?}
+    C -->|Yes| D[Tool]
+    D --> E[LLM]
+    E --> F[Answer]
+    C -->|No| G[Retry / Fix]
+```
 
 > User --> LLM(Gate) --> Decision --> Tool --> LLM --> Answer
 
@@ -166,6 +188,18 @@ Without gate checks, the system might:
 
 ### With Gate Checks
 
+```mermaid
+flowchart TD
+    A[User Query] --> B[Intent Classification]
+    B --> C{Valid Intent?}
+    C -->|No| D[Reject / Ask Clarification]
+    C -->|Yes| E[Extract Parameters]
+    E --> F{Valid Data?}
+    F -->|No| D
+    F -->|Yes| G[Call Backend]
+    G --> H[Generate Response]
+```
+
 #### Gate 1: Is account data required?
 
 ```python
@@ -267,6 +301,14 @@ Structure is everything.
 ### 3. Skipping validation between steps
 
 Every step should answer:
+
+```mermaid
+flowchart TD
+    A[Step Output] --> B[Gate Check]
+    B --> C{Pass?}
+    C -->|Yes| D[Next Step]
+    C -->|No| E[Retry / Fix]
+```
 
 > “Is this safe to move forward?”
 

@@ -1,5 +1,9 @@
 ---
 title: Why Prompts Fail (And How to Debug Them)
+tags:
+  - ai-systems
+  - agents
+  - prompting
 ---
 
 Most people think prompt engineering is about writing better prompts.
@@ -15,6 +19,12 @@ Because if you use LLMs seriously—whether for learning, building, or product w
 And the honest answer most of the time is:
 
 > Your prompt is under-specified.
+
+```mermaid
+flowchart LR
+    A[Underspecified Prompt] --> B[Model Guess]
+    B --> C[Inconsistent Output]
+```
 
 ---
 
@@ -51,6 +61,14 @@ The model guesses.
 
 And different guesses → different outputs.
 
+```mermaid
+flowchart TD
+    A[Ambiguous Task] --> B{Interpretation}
+    B -->|Option 1| C[Trend Analysis]
+    B -->|Option 2| D[Summary]
+    B -->|Option 3| E[Insights]
+```
+
 ---
 
 ### Fix: Make Decisions Explicit
@@ -77,6 +95,12 @@ Example:
 That’s not a prompt. That’s a universe.
 
 The model compresses everything into a vague average.
+
+```mermaid
+flowchart LR
+    A[Wide Scope] --> B[Model Compresses]
+    B --> C[Vague Output]
+```
 
 ---
 
@@ -115,6 +139,12 @@ Next time? Different again.
 
 Structure removes variability.
 
+```mermaid
+flowchart TD
+    A[No Format] --> B[Model Chooses Format]
+    B --> C[Inconsistent Structure]
+```
+
 ---
 
 ## Failure Mode #4: Hidden Assumptions
@@ -131,6 +161,12 @@ What does “good” mean?
 - Long-term?
 
 The model fills in the blanks.
+
+```mermaid
+flowchart TD
+    A[Undefined Criteria] --> B[Model Assumes]
+    B --> C[Misaligned Output]
+```
 
 ---
 
@@ -153,6 +189,12 @@ Sometimes the output *looks* right.
 But it’s shallow, incomplete, or wrong.
 
 This is the most dangerous failure mode.
+
+```mermaid
+flowchart TD
+    A[Model Output] --> B[No Verification]
+    B --> C[Confident Error]
+```
 
 ---
 
@@ -184,6 +226,15 @@ That shift changes everything.
 ## A Simple Debug Framework
 
 When a prompt fails, check:
+
+```mermaid
+flowchart TD
+    A[Prompt Fails] --> B[Check Clarity]
+    B --> C[Check Scope]
+    C --> D[Check Format]
+    D --> E[Check Assumptions]
+    E --> F[Add Verification]
+```
 
 ### 1. Is the task clear?
 If not → define it
@@ -233,3 +284,8 @@ Every time the model surprises you, ask:
 > “What did I leave unspecified?”
 
 That’s where the fix is.
+
+---
+## Next
+
+--> [[prompt-engineering-techniques| Prompt Engineering Techniques That Actually Work]]

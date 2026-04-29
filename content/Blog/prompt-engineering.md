@@ -1,5 +1,9 @@
 ---
 title: Prompt Engineering Is Not About Prompts
+tags:
+  - ai-systems
+  - agents
+  - prompting
 ---
 
 When people first hear the term *prompt engineering*, they usually assume it’s about asking better questions.
@@ -45,6 +49,12 @@ What’s missing?
 
 Too much freedom → generic output.
 
+```mermaid
+flowchart LR
+    A[Ambiguous Prompt] --> B[Model]
+    B --> C[Generic Output]
+```
+
 Better prompt:
 > Explain supervised learning to a beginner using a real-world analogy in under 150 words.
 
@@ -55,6 +65,12 @@ Now you’ve constrained:
 - Length
 
 That’s the difference.
+
+```mermaid
+flowchart LR
+    A[Constrained Prompt] --> B[Model]
+    B --> C[Specific Output]
+```
 
 ---
 
@@ -78,6 +94,14 @@ That’s prompt engineering.
 4. **Output Format** – How should the answer look?
 
 Most people skip #4. That’s where control comes from.
+
+```mermaid
+flowchart TD
+    A[Instruction] --> B[Context]
+    B --> C[Input]
+    C --> D[Output Format]
+    D --> E[Controlled Output]
+```
 
 ---
 
@@ -106,6 +130,13 @@ With tools, the loop becomes:
 4. Continue  
 
 Now you’re designing **decision systems**, not prompts.
+
+```mermaid
+flowchart TD
+    A[Decide] --> B[Act]
+    B --> C[Observe]
+    C --> A
+```
 
 ---
 

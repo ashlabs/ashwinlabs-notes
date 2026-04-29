@@ -1,5 +1,9 @@
 ---
 title: Hard-Codes Workflows vs AI Agents (ReAct) - The Difference That Actually Matters
+tags:
+  - ai-systems
+  - agents
+  - prompting
 ---
 
 When people first encounter AI agents, the reaction is usually:
@@ -70,6 +74,15 @@ def handle_query(query):
 
 This is called **prompt chaining**.
 
+```mermaid
+flowchart TD
+    A[User Query] --> B[LLM Decision]
+    B --> C{Needs Tool?}
+    C -->|Yes| D[Call Calendar API]
+    D --> E[LLM Answer]
+    C -->|No| F[LLM Answer]
+```
+
 ### Mental Model
 
 You are the manager:
@@ -130,6 +143,15 @@ def run_agent(query):
 
 This is **reasoning + acting (ReAct)
 
+```mermaid
+flowchart TD
+    A[User Query] --> B[LLM Thought]
+    B --> C[Action: Call Tool]
+    C --> D[Observation]
+    D --> B
+    B --> E[Final Answer]
+```
+
 ### Mental Model
 
 You hired an employee:
@@ -143,6 +165,15 @@ The LLM:
 ---
 
 ## Side-by-Side Comparison
+
+```mermaid
+flowchart LR
+    A[You Control Flow] --> B[Hardcoded Steps]
+    B --> C[LLM Executes]
+
+    D[LLM Controls Flow] --> E[Decide → Act → Observe]
+    E --> F[System Executes Tools]
+```
 
 | **Aspect**         | **Hard-Coded Workflow** | **Agent(ReAct)** |
 | ------------------ | ----------------------- | ---------------- |

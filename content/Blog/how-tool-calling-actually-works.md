@@ -1,5 +1,9 @@
 ---
 title: How Tool Calling Actually Works (Under the Hood)
+tags:
+  - ai-systems
+  - agents
+  - prompting
 ---
 
 By now, you’ve seen the ReAct pattern:
@@ -34,6 +38,17 @@ What it’s really doing is:
 > Generating structured text that *represents an intent to act*
 
 That distinction matters more than it seems.
+
+```mermaid
+flowchart TD
+    A[User Input] --> B[LLM Decision]
+    B --> C[Structured Tool Call Output]
+    C --> D[System Parses Request]
+    D --> E[Execute Tool]
+    E --> F[Return Result]
+    F --> B
+    B --> G[Final Answer]
+```
 
 ---
 
@@ -125,6 +140,15 @@ Now the model can say:
 
 ## The Key Insight
 
+```mermaid
+flowchart LR
+    A[Model] -->|Decides| B[Tool Call Intent]
+    B -->|Handled by| C[System]
+    C -->|Executes| D[External API]
+    D -->|Returns Data| C
+    C -->|Feeds Back| A
+```
+
 Let’s make this explicit:
 
 | Step | Who does it |
@@ -175,6 +199,16 @@ This is exactly where PM-T + systems thinking becomes valuable.
 ---
 
 ## Common Mistakes
+
+```mermaid
+flowchart TD
+    A[Tool Call Request] --> B[Validate Inputs]
+    B --> C{Valid?}
+    C -->|No| D[Reject / Fix]
+    C -->|Yes| E[Execute Tool]
+    E --> F[Handle Errors]
+    F --> G[Return Result]
+```
 
 ### 1. Blind Execution
 
@@ -240,3 +274,8 @@ What actually happened is:
 
 That distinction is everything.
 
+---
+
+## Next
+
+--> [[how-agents-plan| How AI Agents Plan]]
