@@ -1,5 +1,6 @@
-# Mermaid Cheatsheet (Quartz-Safe)
-
+---
+title: Mermaid Cheatsheet
+---
 ## Summary
 
 Mermaid lets you create diagrams using plain text. This version is optimized for **Quartz**, avoiding nested backticks and parser issues.
