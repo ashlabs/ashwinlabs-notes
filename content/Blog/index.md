@@ -1,5 +1,5 @@
 ---
-title: Ashwin's Digital Garden
+title: Blog
 ---
 
 I build and document systems in machine learning, AI, and product engineering.
