@@ -6,65 +6,65 @@
       <description>Last 10 notes on Ashwin Labs Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>How AI Agents Plan - From Random Actions to Structured Execution</title>
-    <link>https://notes.ashwinlabs.com/Blog/how-agents-plan</link>
-    <guid>https://notes.ashwinlabs.com/Blog/how-agents-plan</guid>
-    <description><![CDATA[ Why Planning Matters Most agent demos look impressive… until they don’t. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:25:30 GMT</pubDate>
-  </item><item>
-    <title>Memory in AI Agents - Why Stateless Systems Feel Dumb</title>
-    <link>https://notes.ashwinlabs.com/Blog/memory-in-agents</link>
-    <guid>https://notes.ashwinlabs.com/Blog/memory-in-agents</guid>
-    <description><![CDATA[ Why Memory Matters Most AI systems feel smart… until you use them twice. You tell it something once. Then you have to tell it again. And again. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:25:11 GMT</pubDate>
-  </item><item>
-    <title>When Not to Use Agents</title>
-    <link>https://notes.ashwinlabs.com/Blog/when-not-to-use-agents</link>
-    <guid>https://notes.ashwinlabs.com/Blog/when-not-to-use-agents</guid>
-    <description><![CDATA[ Why This Matters Agents are everywhere right now. And that’s the problem. People are reaching for agents before they understand the tradeoffs. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:24:25 GMT</pubDate>
-  </item><item>
-    <title>Tool Calling and Function Calling</title>
-    <link>https://notes.ashwinlabs.com/Blog/tool-calling</link>
-    <guid>https://notes.ashwinlabs.com/Blog/tool-calling</guid>
-    <description><![CDATA[ Why Tools Matter A language model on its own is limited. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:24:08 GMT</pubDate>
-  </item><item>
-    <title>Building Reliable Agent Workflows</title>
-    <link>https://notes.ashwinlabs.com/Blog/reliable-agents</link>
-    <guid>https://notes.ashwinlabs.com/Blog/reliable-agents</guid>
-    <description><![CDATA[ Why Reliability Matters Agent demos look impressive. Until they don’t. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:23:58 GMT</pubDate>
-  </item><item>
-    <title>Prompt Engineering Techniques That Actually Work</title>
-    <link>https://notes.ashwinlabs.com/Blog/prompt-engineering-techniques</link>
-    <guid>https://notes.ashwinlabs.com/Blog/prompt-engineering-techniques</guid>
-    <description><![CDATA[ And why most advice online misses the point The Moment Prompt Engineering Clicks Most people start prompt engineering like this: “Explain gradient descent.” And sometimes, that works. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:23:51 GMT</pubDate>
-  </item><item>
-    <title>Deconstructing the AI Agent</title>
-    <link>https://notes.ashwinlabs.com/Blog/deconstructing-ai-agent</link>
-    <guid>https://notes.ashwinlabs.com/Blog/deconstructing-ai-agent</guid>
-    <description><![CDATA[ “AI agent” has become one of those terms that sounds impressive but often hides more than it explains. A chatbot is called an agent. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:22:26 GMT</pubDate>
+    <title>Not All AI Agents Are the Same - A Practical Guide to Agent Types</title>
+    <link>https://notes.ashwinlabs.com/Blog/agent-types</link>
+    <guid>https://notes.ashwinlabs.com/Blog/agent-types</guid>
+    <description><![CDATA[ There is a strange thing that happens once a technical idea becomes popular. The word starts getting used for everything. ]]></description>
+    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
   </item><item>
     <title>AI Systems Thinking</title>
     <link>https://notes.ashwinlabs.com/Blog/ai-systems-thinking</link>
     <guid>https://notes.ashwinlabs.com/Blog/ai-systems-thinking</guid>
     <description><![CDATA[ Start Here Most people approach AI like this: Write a prompt Hope it works Tweak wording That works… until it doesn’t. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:22:16 GMT</pubDate>
+    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
   </item><item>
-    <title>Not All AI Agents Are the Same - A Practical Guide to Agent Types</title>
-    <link>https://notes.ashwinlabs.com/Blog/agent-types</link>
-    <guid>https://notes.ashwinlabs.com/Blog/agent-types</guid>
-    <description><![CDATA[ There is a strange thing that happens once a technical idea becomes popular. The word starts getting used for everything. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:22:01 GMT</pubDate>
+    <title>Deconstructing the AI Agent</title>
+    <link>https://notes.ashwinlabs.com/Blog/deconstructing-ai-agent</link>
+    <guid>https://notes.ashwinlabs.com/Blog/deconstructing-ai-agent</guid>
+    <description><![CDATA[ “AI agent” has become one of those terms that sounds impressive but often hides more than it explains. A chatbot is called an agent. ]]></description>
+    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
   </item><item>
-    <title>mermaid-cheatsheet</title>
-    <link>https://notes.ashwinlabs.com/Cheatsheets/mermaid-cheatsheet</link>
-    <guid>https://notes.ashwinlabs.com/Cheatsheets/mermaid-cheatsheet</guid>
-    <description><![CDATA[ Mermaid Cheatsheet (Quartz-Safe) Summary Mermaid lets you create diagrams using plain text. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 18:25:11 GMT</pubDate>
+    <title>From Prompts to Agents -  Designing Decision Loops</title>
+    <link>https://notes.ashwinlabs.com/Blog/from-prompts-to-agents</link>
+    <guid>https://notes.ashwinlabs.com/Blog/from-prompts-to-agents</guid>
+    <description><![CDATA[ At this point, you’ve seen the progression: Prompts → getting better outputs Debugging → fixing failures ReAct → enabling actions Tool calling → separating decision and execution Now comes the real shift. ]]></description>
+    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+  </item><item>
+    <title>Gate checks in Prompt Chaining</title>
+    <link>https://notes.ashwinlabs.com/Blog/gate-checks-in-prompt-chaining</link>
+    <guid>https://notes.ashwinlabs.com/Blog/gate-checks-in-prompt-chaining</guid>
+    <description><![CDATA[ Why your LLM workflow works in demos…and fails in real systems The Moment You Realize Prompt Chaining Isn’t Enough Early on prompt chaining feels clean. ]]></description>
+    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+  </item><item>
+    <title>Hard-Codes Workflows vs AI Agents (ReAct) - The Difference That Actually Matters</title>
+    <link>https://notes.ashwinlabs.com/Blog/hard-coded-workflows-vs-agents</link>
+    <guid>https://notes.ashwinlabs.com/Blog/hard-coded-workflows-vs-agents</guid>
+    <description><![CDATA[ When people first encounter AI agents, the reaction is usually: “Wait…isn’t this just calling APIs with an LLM in between?” Not quite. ]]></description>
+    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+  </item><item>
+    <title>How AI Agents Plan - From Random Actions to Structured Execution</title>
+    <link>https://notes.ashwinlabs.com/Blog/how-agents-plan</link>
+    <guid>https://notes.ashwinlabs.com/Blog/how-agents-plan</guid>
+    <description><![CDATA[ Why Planning Matters Most agent demos look impressive… until they don’t. ]]></description>
+    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+  </item><item>
+    <title>How Tool Calling Actually Works (Under the Hood)</title>
+    <link>https://notes.ashwinlabs.com/Blog/how-tool-calling-actually-works</link>
+    <guid>https://notes.ashwinlabs.com/Blog/how-tool-calling-actually-works</guid>
+    <description><![CDATA[ By now, you’ve seen the ReAct pattern: Think → Act → Observe It looks like the model is calling tools. ]]></description>
+    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+  </item><item>
+    <title>Ashwin&#039;s Digital Garden</title>
+    <link>https://notes.ashwinlabs.com/Blog/</link>
+    <guid>https://notes.ashwinlabs.com/Blog/</guid>
+    <description><![CDATA[ I build and document systems in machine learning, AI, and product engineering. ]]></description>
+    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+  </item><item>
+    <title>Inside the ReAct Pattern (Think → Act → Observe)</title>
+    <link>https://notes.ashwinlabs.com/Blog/inside-the-react-pattern</link>
+    <guid>https://notes.ashwinlabs.com/Blog/inside-the-react-pattern</guid>
+    <description><![CDATA[ At some point, prompting stops being about writing better instructions. ]]></description>
+    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
   </item>
     </channel>
   </rss>
