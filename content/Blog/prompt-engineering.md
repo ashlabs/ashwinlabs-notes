@@ -160,3 +160,10 @@ Ask:
 > “What decisions am I leaving to the model?”
 
 That’s the real lever.
+
+---
+
+## Next
+
+--> [[why-prompts-fail| Why Prompts Fail (And How to Debug Them]]
+

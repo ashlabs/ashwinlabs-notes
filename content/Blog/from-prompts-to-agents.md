@@ -304,4 +304,5 @@ Your job is to design everything around it.
 
 ## Next
 
---> [[deconstructing-ai-agent|Deconstructing the AI Agent]]
+--> [[hard-coded-workflows-vs-agents| Hardcoded Workflows vs Agents]]
+

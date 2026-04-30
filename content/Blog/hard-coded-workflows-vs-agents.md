@@ -235,3 +235,6 @@ And once you see it, you'll start designing systems differently.
 
 ---
 
+## Next
+
+--> [[deconstructing-ai-agent|Deconstructing the AI Agent]]

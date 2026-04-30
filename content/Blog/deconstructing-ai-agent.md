@@ -307,3 +307,9 @@ And only then decide:
 Because sometimes the best agent…
 
 …is no agent at all.
+
+---
+
+## Next
+
+--> [[inside-the-react-pattern| Inside the ReAct Pattern]]

@@ -248,4 +248,5 @@ That’s engineering.
 
 ## Next
 
---> [[when-not-to-use-agents| When Not to Use Agents]]
+--> [[agent-types| Agent Types]]
+

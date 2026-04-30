@@ -1709,3 +1709,9 @@ That is the practical way to think about agent types.
 Not as a hype ladder.
 
 As a design toolbox.
+
+---
+
+## Next
+
+--> [[when-not-to-use-agents| When Not to Use Agents]]
