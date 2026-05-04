@@ -5,7 +5,10 @@ tags:
   - agents
   - prompting
 ---
+
 ## Start Here
+
+If you read only one thing on this site, start with the Core System Design section below.
 
 Most people approach AI like this:
 
@@ -21,24 +24,37 @@ This series is about a different approach:
 
 ---
 
-## What This Covers
+## The Core Idea
 
-This is a connected series on how modern AI systems actually work:
+Real-world AI systems are not just prompts or models.
 
-- Prompt behavior and failure modes  
-- Structured workflows and chaining  
-- Agent loops (ReAct)  
-- Tool calling and execution boundaries  
-- Planning and decomposition  
-- Memory and state  
-- Reliability and guardrails  
-- When NOT to use agents  
+They are **composed systems** with interacting layers:
+
+```
+Retrieval → Validation → Planning → Memory → Evaluation
+```
+
+Each layer solves a different problem.
+
+Most failures happen when one of these layers is missing.
 
 ---
 
-## Recommended Path
+## Core System Design (Start Here if You Want Depth)
 
-### 1. Foundations
+This is the most important part of this site.
+
+- [[part1-agentic-RAG-case-study|Part 1: Explaining Procurement Decisions with Agentic RAG]]
+- [[part2-gate-checks|Part 2: Gate Checks in AI Systems]]
+- [[part3-planning-in-agents|Part 3: Planning in Agents]]
+- [[part4-agentic-memory|Part 4: Agentic Memory]]
+- [[part5-learning-agents|Part 5: Learning Agents (Evaluation & Feedback)]]
+
+---
+
+## Foundations
+
+Start here if you are new to system-level thinking:
 
 - [[prompt-engineering|Prompt Engineering Is Not About Prompts]]
 - [[why-prompts-fail|Why Prompts Fail (And How to Debug Them)]]
@@ -46,14 +62,14 @@ This is a connected series on how modern AI systems actually work:
 
 ---
 
-### 2. From Prompts to Systems
+## From Prompts to Systems
 
 - [[from-prompts-to-agents|From Prompts to Agents]]
 - [[hard-coded-workflows-vs-agents|Hardcoded Workflows vs Agents]]
 
 ---
 
-### 3. Core Agent Mechanics
+## Core Agent Mechanics
 
 - [[deconstructing-ai-agent|Deconstructing the AI Agent]]
 - [[inside-the-react-pattern|Inside the ReAct Pattern]]
@@ -61,7 +77,7 @@ This is a connected series on how modern AI systems actually work:
 
 ---
 
-### 4. Building Real Systems
+## Building Real Systems
 
 - [[how-agents-plan|How AI Agents Plan]]
 - [[memory-in-agents|Memory in AI Agents]]
@@ -69,7 +85,7 @@ This is a connected series on how modern AI systems actually work:
 
 ---
 
-### 5. System Design Decisions
+## System Design Decisions
 
 - [[agent-types|Agent Types]]
 - [[when-not-to-use-agents|When Not to Use Agents]]
@@ -80,7 +96,12 @@ This is a connected series on how modern AI systems actually work:
 
 This is not a set of independent posts.
 
-Each one builds on the previous.
+Each layer builds on the previous:
+
+1. Learn prompting  
+2. Understand agents  
+3. Learn system design  
+4. Study real implementations  
 
 If something feels unclear:
 - Go back one step  

@@ -79,3 +79,9 @@ Retrieval helps you find information.
 Generation helps you explain it.
 
 Planning ensures you asked the right questions in the first place.
+
+---
+
+## Next
+
+--> [[part4-agentic_memory|Agentic Memory - The Missing Layer Between RAG and Real Intelligence]]

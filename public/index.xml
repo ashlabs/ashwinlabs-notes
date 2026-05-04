@@ -6,11 +6,23 @@
       <description>Last 10 notes on Ashwin Labs Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Agentic Memory - The Missing Layer Between RAG and Real Intelligence</title>
+    <link>https://notes.ashwinlabs.com/Blog/part4-agentic_memory</link>
+    <guid>https://notes.ashwinlabs.com/Blog/part4-agentic_memory</guid>
+    <description><![CDATA[ Part 4 of the AI Systems Thinking Series The System Worked. But Something Felt Off. We had built something powerful. ]]></description>
+    <pubDate>Mon, 04 May 2026 21:20:39 GMT</pubDate>
+  </item><item>
+    <title>Learning Agents - Why Memory Alone Isn’t Enough (And How We Made Our System Improve Safely)</title>
+    <link>https://notes.ashwinlabs.com/Blog/part5-learning-agents</link>
+    <guid>https://notes.ashwinlabs.com/Blog/part5-learning-agents</guid>
+    <description><![CDATA[ Part 5 of the AI Systems Thinking Series We Added Memory. The System Got Faster. But We Still Had a Problem. ]]></description>
+    <pubDate>Mon, 04 May 2026 21:20:06 GMT</pubDate>
+  </item><item>
     <title>Explaining Procurement Decisions with Agentic RAG- A Case Study</title>
     <link>https://notes.ashwinlabs.com/Blog/part1-agentic-RAG-case-study</link>
     <guid>https://notes.ashwinlabs.com/Blog/part1-agentic-RAG-case-study</guid>
     <description><![CDATA[  This is a 3-part case study on building a production-grade decision explanation system using agentic RAG. ]]></description>
-    <pubDate>Mon, 04 May 2026 18:58:44 GMT</pubDate>
+    <pubDate>Mon, 04 May 2026 19:15:24 GMT</pubDate>
   </item><item>
     <title>Designing Gate Checks in AI Systems</title>
     <link>https://notes.ashwinlabs.com/Blog/part2-gate-checks</link>
@@ -53,18 +65,6 @@
     <guid>https://notes.ashwinlabs.com/Blog/prompt-engineering</guid>
     <description><![CDATA[ When people first hear the term prompt engineering, they usually assume it’s about asking better questions. ]]></description>
     <pubDate>Thu, 30 Apr 2026 04:31:25 GMT</pubDate>
-  </item><item>
-    <title>Building Reliable Agent Workflows</title>
-    <link>https://notes.ashwinlabs.com/Blog/reliable-agents</link>
-    <guid>https://notes.ashwinlabs.com/Blog/reliable-agents</guid>
-    <description><![CDATA[ Why Reliability Matters Agent demos look impressive. Until they don’t. ]]></description>
-    <pubDate>Thu, 30 Apr 2026 04:31:25 GMT</pubDate>
-  </item><item>
-    <title>Mermaid Cheatsheet</title>
-    <link>https://notes.ashwinlabs.com/Cheatsheets/mermaid-cheatsheet</link>
-    <guid>https://notes.ashwinlabs.com/Cheatsheets/mermaid-cheatsheet</guid>
-    <description><![CDATA[ Summary Mermaid lets you create diagrams using plain text. This version is optimized for Quartz, avoiding nested backticks and parser issues. ]]></description>
-    <pubDate>Thu, 30 Apr 2026 03:51:34 GMT</pubDate>
   </item>
     </channel>
   </rss>
