@@ -6,23 +6,23 @@
       <description>Last 10 notes on Ashwin Labs Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Explaining Procurement Decisions with Agentic RAG- A Case Study</title>
+    <link>https://notes.ashwinlabs.com/Blog/part1-agentic-RAG-case-study</link>
+    <guid>https://notes.ashwinlabs.com/Blog/part1-agentic-RAG-case-study</guid>
+    <description><![CDATA[  This is a 3-part case study on building a production-grade decision explanation system using agentic RAG. ]]></description>
+    <pubDate>Mon, 04 May 2026 18:58:44 GMT</pubDate>
+  </item><item>
     <title>Designing Gate Checks in AI Systems</title>
     <link>https://notes.ashwinlabs.com/Blog/part2-gate-checks</link>
     <guid>https://notes.ashwinlabs.com/Blog/part2-gate-checks</guid>
     <description><![CDATA[ Why Generation Alone Is Not Enough There is a moment in every AI system where everything feels like it’s working. You ask a question. ]]></description>
-    <pubDate>Mon, 04 May 2026 18:57:53 GMT</pubDate>
-  </item><item>
-    <title>Explaining Procurement Decisions with Agentic RAG- A Case Study</title>
-    <link>https://notes.ashwinlabs.com/Blog/part1-agentic-RAG-case-study</link>
-    <guid>https://notes.ashwinlabs.com/Blog/part1-agentic-RAG-case-study</guid>
-    <description><![CDATA[ There’s a particular kind of question that looks simple---right up until you try to answer it. ]]></description>
-    <pubDate>Mon, 04 May 2026 18:57:17 GMT</pubDate>
+    <pubDate>Mon, 04 May 2026 18:58:44 GMT</pubDate>
   </item><item>
     <title>Planning in AI Agents</title>
     <link>https://notes.ashwinlabs.com/Blog/part3-planning-in-agents</link>
     <guid>https://notes.ashwinlabs.com/Blog/part3-planning-in-agents</guid>
     <description><![CDATA[ How Systems Decide Before They Answer Some questions cannot be answered directly. They require decisions. ]]></description>
-    <pubDate>Mon, 04 May 2026 18:55:40 GMT</pubDate>
+    <pubDate>Mon, 04 May 2026 18:58:44 GMT</pubDate>
   </item><item>
     <title>Not All AI Agents Are the Same - A Practical Guide to Agent Types</title>
     <link>https://notes.ashwinlabs.com/Blog/agent-types</link>

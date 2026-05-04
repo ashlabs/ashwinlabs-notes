@@ -1,8 +1,11 @@
 ---
 title: Explaining Procurement Decisions with Agentic RAG- A Case Study
 ---
-There's a particular kind of question that looks simple---right up until
-you try to answer it.
+> This is a 3-part case study on building a production-grade decision explanation system using agentic RAG.  
+> 
+> It covers system design ([[part1-agentic-RAG-case-study|Part 1]]), validation ([[part2-gate-checks| Part 2]]), and planning ([[part3-planning-in-agents| Part 3]]). 
+> 
+> There's a particular kind of question that looks simple---right up until you try to answer it.
 
 It usually comes in some variation of this:
 
