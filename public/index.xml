@@ -6,65 +6,65 @@
       <description>Last 10 notes on Ashwin Labs Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Mermaid Cheatsheet</title>
-    <link>https://notes.ashwinlabs.com/Cheatsheets/mermaid-cheatsheet</link>
-    <guid>https://notes.ashwinlabs.com/Cheatsheets/mermaid-cheatsheet</guid>
-    <description><![CDATA[ Summary Mermaid lets you create diagrams using plain text. This version is optimized for Quartz, avoiding nested backticks and parser issues. ]]></description>
-    <pubDate>Thu, 30 Apr 2026 03:51:34 GMT</pubDate>
+    <title>Designing Gate Checks in AI Systems</title>
+    <link>https://notes.ashwinlabs.com/Blog/part2-gate-checks</link>
+    <guid>https://notes.ashwinlabs.com/Blog/part2-gate-checks</guid>
+    <description><![CDATA[ Why Generation Alone Is Not Enough There is a moment in every AI system where everything feels like it’s working. You ask a question. ]]></description>
+    <pubDate>Mon, 04 May 2026 18:57:53 GMT</pubDate>
   </item><item>
-    <title>Blog</title>
-    <link>https://notes.ashwinlabs.com/Blog/</link>
-    <guid>https://notes.ashwinlabs.com/Blog/</guid>
-    <description><![CDATA[ I build and document systems in machine learning, AI, and product engineering. ]]></description>
-    <pubDate>Thu, 30 Apr 2026 03:49:09 GMT</pubDate>
+    <title>Explaining Procurement Decisions with Agentic RAG- A Case Study</title>
+    <link>https://notes.ashwinlabs.com/Blog/part1-agentic-RAG-case-study</link>
+    <guid>https://notes.ashwinlabs.com/Blog/part1-agentic-RAG-case-study</guid>
+    <description><![CDATA[ There’s a particular kind of question that looks simple---right up until you try to answer it. ]]></description>
+    <pubDate>Mon, 04 May 2026 18:57:17 GMT</pubDate>
+  </item><item>
+    <title>Planning in AI Agents</title>
+    <link>https://notes.ashwinlabs.com/Blog/part3-planning-in-agents</link>
+    <guid>https://notes.ashwinlabs.com/Blog/part3-planning-in-agents</guid>
+    <description><![CDATA[ How Systems Decide Before They Answer Some questions cannot be answered directly. They require decisions. ]]></description>
+    <pubDate>Mon, 04 May 2026 18:55:40 GMT</pubDate>
   </item><item>
     <title>Not All AI Agents Are the Same - A Practical Guide to Agent Types</title>
     <link>https://notes.ashwinlabs.com/Blog/agent-types</link>
     <guid>https://notes.ashwinlabs.com/Blog/agent-types</guid>
     <description><![CDATA[ There is a strange thing that happens once a technical idea becomes popular. The word starts getting used for everything. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
-  </item><item>
-    <title>AI Systems Thinking</title>
-    <link>https://notes.ashwinlabs.com/Blog/ai-systems-thinking</link>
-    <guid>https://notes.ashwinlabs.com/Blog/ai-systems-thinking</guid>
-    <description><![CDATA[ Start Here Most people approach AI like this: Write a prompt Hope it works Tweak wording That works… until it doesn’t. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+    <pubDate>Thu, 30 Apr 2026 04:31:25 GMT</pubDate>
   </item><item>
     <title>Deconstructing the AI Agent</title>
     <link>https://notes.ashwinlabs.com/Blog/deconstructing-ai-agent</link>
     <guid>https://notes.ashwinlabs.com/Blog/deconstructing-ai-agent</guid>
     <description><![CDATA[ “AI agent” has become one of those terms that sounds impressive but often hides more than it explains. A chatbot is called an agent. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+    <pubDate>Thu, 30 Apr 2026 04:31:25 GMT</pubDate>
   </item><item>
     <title>From Prompts to Agents -  Designing Decision Loops</title>
     <link>https://notes.ashwinlabs.com/Blog/from-prompts-to-agents</link>
     <guid>https://notes.ashwinlabs.com/Blog/from-prompts-to-agents</guid>
     <description><![CDATA[ At this point, you’ve seen the progression: Prompts → getting better outputs Debugging → fixing failures ReAct → enabling actions Tool calling → separating decision and execution Now comes the real shift. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
-  </item><item>
-    <title>Gate checks in Prompt Chaining</title>
-    <link>https://notes.ashwinlabs.com/Blog/gate-checks-in-prompt-chaining</link>
-    <guid>https://notes.ashwinlabs.com/Blog/gate-checks-in-prompt-chaining</guid>
-    <description><![CDATA[ Why your LLM workflow works in demos…and fails in real systems The Moment You Realize Prompt Chaining Isn’t Enough Early on prompt chaining feels clean. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+    <pubDate>Thu, 30 Apr 2026 04:31:25 GMT</pubDate>
   </item><item>
     <title>Hard-Codes Workflows vs AI Agents (ReAct) - The Difference That Actually Matters</title>
     <link>https://notes.ashwinlabs.com/Blog/hard-coded-workflows-vs-agents</link>
     <guid>https://notes.ashwinlabs.com/Blog/hard-coded-workflows-vs-agents</guid>
     <description><![CDATA[ When people first encounter AI agents, the reaction is usually: “Wait…isn’t this just calling APIs with an LLM in between?” Not quite. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+    <pubDate>Thu, 30 Apr 2026 04:31:25 GMT</pubDate>
   </item><item>
-    <title>How AI Agents Plan - From Random Actions to Structured Execution</title>
-    <link>https://notes.ashwinlabs.com/Blog/how-agents-plan</link>
-    <guid>https://notes.ashwinlabs.com/Blog/how-agents-plan</guid>
-    <description><![CDATA[ Why Planning Matters Most agent demos look impressive… until they don’t. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+    <title>Prompt Engineering Is Not About Prompts</title>
+    <link>https://notes.ashwinlabs.com/Blog/prompt-engineering</link>
+    <guid>https://notes.ashwinlabs.com/Blog/prompt-engineering</guid>
+    <description><![CDATA[ When people first hear the term prompt engineering, they usually assume it’s about asking better questions. ]]></description>
+    <pubDate>Thu, 30 Apr 2026 04:31:25 GMT</pubDate>
   </item><item>
-    <title>How Tool Calling Actually Works (Under the Hood)</title>
-    <link>https://notes.ashwinlabs.com/Blog/how-tool-calling-actually-works</link>
-    <guid>https://notes.ashwinlabs.com/Blog/how-tool-calling-actually-works</guid>
-    <description><![CDATA[ By now, you’ve seen the ReAct pattern: Think → Act → Observe It looks like the model is calling tools. ]]></description>
-    <pubDate>Wed, 29 Apr 2026 19:27:19 GMT</pubDate>
+    <title>Building Reliable Agent Workflows</title>
+    <link>https://notes.ashwinlabs.com/Blog/reliable-agents</link>
+    <guid>https://notes.ashwinlabs.com/Blog/reliable-agents</guid>
+    <description><![CDATA[ Why Reliability Matters Agent demos look impressive. Until they don’t. ]]></description>
+    <pubDate>Thu, 30 Apr 2026 04:31:25 GMT</pubDate>
+  </item><item>
+    <title>Mermaid Cheatsheet</title>
+    <link>https://notes.ashwinlabs.com/Cheatsheets/mermaid-cheatsheet</link>
+    <guid>https://notes.ashwinlabs.com/Cheatsheets/mermaid-cheatsheet</guid>
+    <description><![CDATA[ Summary Mermaid lets you create diagrams using plain text. This version is optimized for Quartz, avoiding nested backticks and parser issues. ]]></description>
+    <pubDate>Thu, 30 Apr 2026 03:51:34 GMT</pubDate>
   </item>
     </channel>
   </rss>
