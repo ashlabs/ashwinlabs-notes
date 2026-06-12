@@ -15,7 +15,7 @@ The series starts with the limitations of traditional sequence models, builds in
 
 Rather than focusing only on formulas, the goal is to understand why attention changed AI and how the ideas fit together as a system.
 
-👉 [[Attention Mechanism Series]]
+👉 [[attention_transformers_series_landing_page| Attention Mechanism Series]]
 
 ---
 
