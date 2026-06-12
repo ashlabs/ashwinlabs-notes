@@ -7,6 +7,17 @@ I build and document systems in machine learning, AI, and product engineering.
 This site is my working knowledge base — where ideas are tested, refined, and connected.
 
 ---
+## ⭐ Featured Series
+
+A 11-part deep dive into one of the most important ideas in modern AI.
+
+The series starts with the limitations of traditional sequence models, builds intuition for attention, and gradually progresses through self-attention, multi-head attention, positional encoding, and the Transformer architecture.
+
+Rather than focusing only on formulas, the goal is to understand why attention changed AI and how the ideas fit together as a system.
+
+👉 [[Attention Mechanism Series]]
+
+---
 
 ## 🚀 AI Systems Thinking (Start Here)
 

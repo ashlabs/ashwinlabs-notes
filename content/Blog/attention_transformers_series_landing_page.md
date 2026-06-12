@@ -3,6 +3,13 @@
 *A Deep Dive Series on How Large Language Models Actually Work*
 
 ---
+title: Attention Mechanism Series
+tags:
+  - ai-systems
+  - attention
+  - transformers
+---
+
 
 # Series Introduction
 
